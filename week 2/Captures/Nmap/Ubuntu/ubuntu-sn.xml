@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Sun Oct 25 19:18:59 2026 as: /usr/lib/nmap/nmap -sn -n -&#45;reason -&#45;host-timeout 30s -oN ubuntu-sn.txt -oX ubuntu-sn.xml 192.168.50.5 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -n -&#45;reason -&#45;host-timeout 30s -oN ubuntu-sn.txt -oX ubuntu-sn.xml 192.168.50.5" start="1792927139" startstr="Sun Oct 25 19:18:59 2026" version="7.99" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.50.5" addrtype="ipv4"/>
+<address addr="08:00:27:FD:32:6D" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="1487" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1792927139" timestr="Sun Oct 25 19:18:59 2026" summary="Nmap done at Sun Oct 25 19:18:59 2026; 1 IP address (1 host up) scanned in 0.07 seconds" elapsed="0.07" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Wed Oct 28 12:11:00 2026 as: /usr/lib/nmap/nmap -sS -n -oN windows-sS.txt -oX windows-sS.xml 192.168.50.3
+Nmap scan report for 192.168.50.3
+Host is up (0.0018s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+MAC Address: 08:00:27:CF:3D:76 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Oct 28 12:11:01 2026 -- 1 IP address (1 host up) scanned in 0.43 seconds

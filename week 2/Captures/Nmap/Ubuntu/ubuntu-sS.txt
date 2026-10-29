@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Sun Oct 25 19:20:16 2026 as: /usr/lib/nmap/nmap -sS -n --reason -oN ubuntu-sS.txt -oX ubuntu-sS.xml 192.168.50.5
+Nmap scan report for 192.168.50.5
+Host is up, received arp-response (0.0064s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 64
+MAC Address: 08:00:27:FD:32:6D (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct 25 19:20:17 2026 -- 1 IP address (1 host up) scanned in 0.35 seconds

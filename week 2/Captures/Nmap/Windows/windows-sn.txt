@@ -1,0 +1,5 @@
+# Nmap 7.99 scan initiated Wed Oct 28 12:10:21 2026 as: /usr/lib/nmap/nmap -sn -n -oN windows-sn.txt -oX windows-sn.xml 192.168.50.3
+Nmap scan report for 192.168.50.3
+Host is up (0.0010s latency).
+MAC Address: 08:00:27:CF:3D:76 (Oracle VirtualBox virtual NIC)
+# Nmap done at Wed Oct 28 12:10:21 2026 -- 1 IP address (1 host up) scanned in 0.08 seconds
